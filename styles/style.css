@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #FFBF78;
+    --secundary-color: #000;
+    --hover-color: #272727;
+
+    --primary-font: "Krona One", sans-serif;
+    --secundary-font: "Montserrat", sans-serif;
+}
+
+
+body {
+
+    height: 100vh;
+
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://thumbs.dreamstime.com/b/cute-chef-boy-holding-strawberry-cake-cartoon-illustration-269464996.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.5;
+
+}
+
+.header__home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+
+}
+
+.header__title {
+    padding: 2% 0 0 0;
+    font-size: 65px;
+    color: var(--secundary-color);
+
+}
+
+.main__home {
+    padding: 5% 0 0 5%;
+    position: relative;
+    width: 95%;
+    height: 80%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main__home__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main__home__section__title {
+    font-size: 36px;
+    width: 50%;
+    color: var(--secundary-color);
+}
+
+.main__home__section__text {
+    font-size: 28px;
+    width: 70%;
+    color: var(--secundary-color);
+}
+
+.main__home__recips {
+    padding: 5% 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    gap: 30px;
+}
+
+.main__home__recips__title {
+    text-decoration: none;
+    color: var(--secundary-color);
+    font-size: 26px;
+}
+
+
+.footer__home {
+
+    background-color: #FFBF78;
+    position: relative;
+    width: 100%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.footer__home__links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.footer__home__social {
+    font-size: 28px;
+    text-decoration: none;
+    color: var(--secundary-color);
+}
