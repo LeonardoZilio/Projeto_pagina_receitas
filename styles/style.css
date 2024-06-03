@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,19 +7,16 @@
 }
 
 :root {
-    --primary-color: #FFBF78;
+    --primary-color: orange;
     --secundary-color: #000;
     --hover-color: #272727;
 
-    --primary-font: "Krona One", sans-serif;
+    --primary-font: "Pacifico", sans-serif;
     --secundary-font: "Montserrat", sans-serif;
 }
 
-
 body {
-
-    height: 100vh;
-
+    display: flex;
 }
 
 .background {
@@ -52,14 +51,18 @@ body {
 }
 
 .header__title {
+
     padding: 2% 0 0 0;
-    font-size: 65px;
-    color: var(--secundary-color);
+    font-size: 80px;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-style: normal;
 
 }
 
 .main__home {
-    padding: 5% 0 0 5%;
+    padding: 5% 5% 5% 5%;
     position: relative;
     width: 95%;
     height: 80%;
@@ -77,13 +80,21 @@ body {
 }
 
 .main__home__section__title {
-    font-size: 36px;
+    font-size: 40px;
     width: 50%;
     color: var(--secundary-color);
 }
 
+.main__home__sextion__strong {
+    font-size: 46px;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-style: normal;
+}
+
 .main__home__section__text {
-    font-size: 28px;
+    font-size: 36px;
     width: 70%;
     color: var(--secundary-color);
 }
@@ -99,9 +110,20 @@ body {
 .main__home__recips__title {
     text-decoration: none;
     color: var(--secundary-color);
-    font-size: 26px;
+    font-size: 34px;
 }
 
+.main__home__recips__frango {
+    width: 350px;
+}
+
+.main__home__recips__feijao {
+    width: 350px;
+}
+
+.main__home__recips__arroz {
+    width: 350px;
+}
 
 .footer__home {
 
@@ -122,7 +144,20 @@ body {
 
 }
 
-.footer__home__social {
+.footer__home__links__insta {
+    width: 80px;
+    max-width: 100%;
+}
+
+.footer__home__links__youtube {
+    width: 75px;
+}
+
+.footer__home__links__tiktok {
+    width: 80px;
+}
+
+.footer__home__links__social {
     font-size: 28px;
     text-decoration: none;
     color: var(--secundary-color);
