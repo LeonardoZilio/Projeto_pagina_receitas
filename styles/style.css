@@ -145,16 +145,30 @@ body {
 }
 
 .footer__home__links__insta {
+    mix-blend-mode: multiply;
     width: 80px;
-    max-width: 100%;
+    height: auto;
+    background-color: #FFBF78;
+    padding: 5;
+    border-radius: 8px;
 }
 
 .footer__home__links__youtube {
-    width: 75px;
+    mix-blend-mode: multiply;
+    width: 80px;
+    height: auto;
+    background-color: #FFBF78;
+    padding: 5;
+    border-radius: 8px;
 }
 
 .footer__home__links__tiktok {
+    mix-blend-mode: multiply;
     width: 80px;
+    height: auto;
+    background-color: #FFBF78;
+    padding: 5;
+    border-radius: 8px;
 }
 
 .footer__home__links__social {
